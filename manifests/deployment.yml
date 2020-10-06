@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -24,7 +25,7 @@ spec:
       containers:
       - name: aws-example-octodex
         # image: 00000000000000.dkr.ecr.my-region.amazonaws.com/example-eks:tag
-        image: 618668373247.dkr.ecr.eu-central-1.amazonaws.com/example-eks:1d9655ad428f4eb1a929b212748857b3041a208e
+        image: 618668373247.dkr.ecr.eu-central-1.amazonaws.com/example-eks:b4eee0c1f53b3c946ce614e5430e9c7aa4c96bdf
         ports:
         - containerPort: 5000
         resources:
